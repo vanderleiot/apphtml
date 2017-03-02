@@ -6,7 +6,7 @@
 	<name>cloud HOST</name> <!-- Renomear o nome -->
 	<description>SEUS ARQUIVOS NAS NUVENS.</description>  <!-- Renomear a Descrição -->
 	<author href="www.hostbdc.com.br">vanderlei oliveira</author>  <!-- Alterar o site e Renomear o nome Des.. -->
-    <content src="http://cloud.hostbdc.com.br/"/>  <!-- Alterar o url do site ou Blogger web responsivo -->
+    <content src="http://aplicativo.hostbdc.com.br/siteapp/"/>  <!-- Alterar o url do site ou Blogger web responsivo -->
 
 	<icon src="icon-128.png" width="128" height="128" />  <!-- Alterar icon tamanho 128 e coloca nome icon-128.png -->
 	<icon src="icon-256.png" width="256" height="256" gap:role="default" />  <!-- Alterar icon tamanho 256 e coloca nome icon-256.png -->
