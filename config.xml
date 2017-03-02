@@ -1,20 +1,43 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<widget xmlns   = "http://www.w3.org/ns/widgets"
-    xmlns:gap   = "http://phonegap.com/ns/1.0"
-    id          = "iescepap.app.demo"
-    versionCode = "1"
-    version     = "1.0.0" >
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="APP.INDENTIFIQUE.COM" version="1.0">
+<!-- Alterar id -->
+<!-- Codigo Davidsonbpe Developer www.davidsonbpe.tk -->
+    
+	<name>NOME DO APP</name> <!-- Renomear o nome -->
+	<description>DESCRIÇÃO DO APP.</description>  <!-- Renomear a Descrição -->
+	<author href="SITE DO DESENVOLVEDOR">NOME DO DESENVOLVEDOR</author>  <!-- Alterar o site e Renomear o nome Des.. -->
+    <content src="http://MEU-URL-SITE.com.br/"/>  <!-- Alterar o url do site ou Blogger web responsivo -->
 
-<!-- versionCode is optional and Android only -->
+	<icon src="icon-128.png" width="128" height="128" />  <!-- Alterar icon tamanho 128 e coloca nome icon-128.png -->
+	<icon src="icon-256.png" width="256" height="256" gap:role="default" />  <!-- Alterar icon tamanho 256 e coloca nome icon-256.png -->
 
-  <name>app teste</name>
+	<preference name="permissions" value="none"/>
+	<preference name="android-targetSdkVersion" value="21" />
+    
+    <plugin name="cordova-plugin-whitelist" version="1"/>
+	<feature name="http://api.phonegap.com/1.0/network"/>
+    <allow-navigation href="http://*/*"/>
+    <allow-navigation href="https://*/*"/>
+    <access origin="*"/>
+    <allow-intent href="http://*/*"/>
+    <allow-intent href="https://*/*"/>
+    <allow-intent href="tel:*"/>
+    <allow-intent href="sms:*"/>
+    <allow-intent href="mailto:*"/>
+    <allow-intent href="geo:*"/>
 
-  <description>
-      An example for phonegap build docs.
-  </description>
+	<preference name="orientation" value="portrait" />  <!-- Pode Alterar - Landscape - Both - System Default -->
+	<preference name="fullscreen" value="true" />
+	<gap:config-file platform="ios" parent="UIStatusBarHidden"><true/></gap:config-file>
+	<gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance"><false/></gap:config-file>
 
-  <author href="https://build.phonegap.com" email="support@phonegap.com">
-      Hardeep Shoker
-  </author>
+	<preference name="deployment-target" value="8.0" />
+	<preference name="android-minSdkVersion" value="14" />
+	<preference name="target-device" value="universal" />
+
+	<gap:plugin name="org.apache.cordova.inappbrowser" />
+
+	<!-- Optional splash screen image, e.g.: -->
+	<!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
 
 </widget>
