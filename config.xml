@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="APP.INDENTIFIQUE.COM" version="1.0">
 <!-- Alterar id -->
 <!-- Codigo Davidsonbpe Developer www.davidsonbpe.tk -->
     
-	<name>NOME DO APP</name> <!-- Renomear o nome -->
-	<description>DESCRIÇÃO DO APP.</description>  <!-- Renomear a Descrição -->
-	<author href="SITE DO DESENVOLVEDOR">NOME DO DESENVOLVEDOR</author>  <!-- Alterar o site e Renomear o nome Des.. -->
-    <content src="http://MEU-URL-SITE.com.br/"/>  <!-- Alterar o url do site ou Blogger web responsivo -->
+	<name>cloud HOST</name> <!-- Renomear o nome -->
+	<description>SEUS ARQUIVOS NAS NUVENS.</description>  <!-- Renomear a Descrição -->
+	<author href="www.hostbdc.com.br">vanderlei oliveira</author>  <!-- Alterar o site e Renomear o nome Des.. -->
+    <content src="http://cloud.hostbdc.com.br/"/>  <!-- Alterar o url do site ou Blogger web responsivo -->
 
 	<icon src="icon-128.png" width="128" height="128" />  <!-- Alterar icon tamanho 128 e coloca nome icon-128.png -->
 	<icon src="icon-256.png" width="256" height="256" gap:role="default" />  <!-- Alterar icon tamanho 256 e coloca nome icon-256.png -->
@@ -35,7 +35,7 @@
 	<preference name="android-minSdkVersion" value="14" />
 	<preference name="target-device" value="universal" />
 
-	<gap:plugin name="org.apache.cordova.inappbrowser" />
+	<gap:plugin name="org.apache.cordova.inappbrowser"  source="npm" />
 
 	<!-- Optional splash screen image, e.g.: -->
 	<!-- <gap:splash src="splash.png" width="1024" height="768" /> -->
